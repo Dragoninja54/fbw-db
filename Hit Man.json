@@ -1,0 +1,6 @@
+{
+  "name": "Hit Man",
+  "hp": 100000,
+  "dps": 25,
+  "drops": "small minigun ammo"
+}

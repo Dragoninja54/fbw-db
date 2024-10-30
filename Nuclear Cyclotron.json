@@ -1,0 +1,6 @@
+{
+  "name": "Nuclear Cyclotron",
+  "hp": 500000,
+  "dps": 150,
+  "drops": "nuke max ammo upgrade"
+}

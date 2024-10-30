@@ -1,0 +1,6 @@
+{
+  "name": "Nuclear Launch Facility",
+  "hp": 1000000,
+  "dps": 187,
+  "drops": "nuke damage upgrade"
+}

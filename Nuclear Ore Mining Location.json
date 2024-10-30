@@ -1,0 +1,6 @@
+{
+  "name": "Nuclear Ore Mining Location",
+  "hp": 200000,
+  "dps": 125,
+  "drops": "nuke radius upgrade"
+}

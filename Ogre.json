@@ -1,0 +1,6 @@
+{
+  "name": "Ogre",
+  "hp": 500000,
+  "dps": 80,
+  "drops": "30 gold"
+}

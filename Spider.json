@@ -1,0 +1,6 @@
+{
+  "name": "Spider",
+  "hp": 100000,
+  "dps": 50,
+  "drops": "minigun damage upgrade"
+}
