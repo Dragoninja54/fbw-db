@@ -1,5 +1,8 @@
 from funcs import is_monster_bio_start
-import json
+import json, os
+
+if not os.path.exists('db'):
+    os.mkdir('db', 0o666)
 
 manual = open('monster_manual.txt', 'r', encoding='utf8').read()
 monster_lines = []
