@@ -1,0 +1,1 @@
+monster_manual.txt provided by @dragonninja54 on Discord

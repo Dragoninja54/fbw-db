@@ -1,0 +1,78 @@
+from funcs import is_monster_bio_start
+import json
+
+manual = open('monster_manual.txt', 'r', encoding='utf8').read()
+monster_lines = []
+monster_nums_names = []
+
+for line in manual.split('\n'):
+    is_start_of_bio = is_monster_bio_start(line, len(line.split(' ')[0]))
+    
+    if is_start_of_bio['b']:
+        number = is_start_of_bio['num']
+
+        if is_start_of_bio['check_for_0']:
+            number = f'{number}0'
+        
+        name = line.split(f'{number} ')[1]
+
+        monster_lines.append(f'{number} {name}')
+        monster_nums_names.append([number, name])
+
+monster_bio_db = {}
+cur_db = []
+
+i = -1
+for line in manual.split('\n')[4:]:
+    
+    if i == len(monster_lines) - 1:
+        continue
+
+    cur_db.append(line)
+    
+    if monster_lines[i + 1] == line:
+        name = monster_nums_names[i][1]
+
+        monster_bio_db[name] = cur_db
+
+        cur_db = []
+
+        i += 1
+
+for num_name in monster_nums_names:
+    num = num_name[0]
+    name = num_name[1]
+
+    db = monster_bio_db[name]
+
+    json_db = {'name': name, 'hp': 'Unknown', 'dps': 'Unknown', 'drops': 'none'}
+
+    i = 0
+
+    for line in db:
+        split = line.split(':')
+
+        if i == 3 or len(split) == 1:
+            break
+        
+        key = split[0][2:].strip()
+        value = split[1].replace(',', '').strip()
+
+        if value != '∞' and key == 'dps' or key == 'hp':
+            try:
+                value = int(value)
+            except:
+                try:
+                    value = float(value)
+                except:
+                    assert 'Value Error'
+
+        json_db[key] = value
+
+        i += 1
+ 
+    print(f'saving db for {name}')
+    with open(f'db/{name}.json', 'w', encoding='utf-8') as f:
+        json.dump(json_db, f, ensure_ascii = False, indent = 2)
+        
+print('Done!')
