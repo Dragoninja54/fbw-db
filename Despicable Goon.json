@@ -2,5 +2,6 @@
   "name": "Despicable Goon",
   "hp": 200000,
   "dps": 50,
-  "drops": "large laser ammo"
+  "drops": "large laser ammo",
+  "class": "Goon"
 }

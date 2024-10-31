@@ -2,5 +2,6 @@
   "name": "Bee",
   "hp": 100,
   "dps": 0.5,
-  "drops": "none"
+  "drops": "none",
+  "class": "Bee-Like"
 }

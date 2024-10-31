@@ -2,5 +2,6 @@
   "name": "Nuclear Refinery",
   "hp": 100000,
   "dps": 125,
-  "drops": "nuke projectile speed upgrade"
+  "drops": "nuke projectile speed upgrade",
+  "class": "Nuclear"
 }

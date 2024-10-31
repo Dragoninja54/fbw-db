@@ -2,5 +2,6 @@
   "name": "Dissident",
   "hp": 5000,
   "dps": 10,
-  "drops": "large cannon ammo"
+  "drops": "large cannon ammo",
+  "class": "Marine"
 }

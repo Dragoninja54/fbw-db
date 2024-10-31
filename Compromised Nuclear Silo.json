@@ -2,5 +2,6 @@
   "name": "Compromised Nuclear Silo",
   "hp": 10000,
   "dps": 20,
-  "drops": "1 nuke ammo"
+  "drops": "1 nuke ammo",
+  "class": "Nuclear"
 }

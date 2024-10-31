@@ -2,5 +2,6 @@
   "name": "Major Goon",
   "hp": 5000,
   "dps": 7,
-  "drops": "large laser ammo"
+  "drops": "large laser ammo",
+  "class": "Goon"
 }

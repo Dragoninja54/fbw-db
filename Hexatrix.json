@@ -2,5 +2,6 @@
   "name": "Hexatrix",
   "hp": 1000000,
   "dps": 200,
-  "drops": "RejuvenX"
+  "drops": "RejuvenX",
+  "class": "Goon"
 }

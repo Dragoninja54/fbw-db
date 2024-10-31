@@ -2,5 +2,6 @@
   "name": "Wasp",
   "hp": 1000,
   "dps": 4,
-  "drops": "2 gold"
+  "drops": "2 gold",
+  "class": "Bee-Like"
 }

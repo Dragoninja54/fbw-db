@@ -2,5 +2,6 @@
   "name": "Red Lamprey",
   "hp": 1000000,
   "dps": 500,
-  "drops": "50 gold"
+  "drops": "50 gold",
+  "class": "Lamprey"
 }

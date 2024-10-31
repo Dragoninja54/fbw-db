@@ -2,5 +2,6 @@
   "name": "Rat",
   "hp": 300000,
   "dps": 3000,
-  "drops": "none"
+  "drops": "none",
+  "class": "Rat"
 }

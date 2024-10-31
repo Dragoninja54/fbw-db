@@ -2,5 +2,6 @@
   "name": "Questionable Goon",
   "hp": 10000,
   "dps": 10,
-  "drops": "large laser ammo"
+  "drops": "large laser ammo",
+  "class": "Goon"
 }

@@ -2,5 +2,6 @@
   "name": "Ultimate Goon",
   "hp": 1000000,
   "dps": 100,
-  "drops": "laser max ammo upgrade"
+  "drops": "laser max ammo upgrade",
+  "class": "Goon"
 }

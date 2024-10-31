@@ -2,5 +2,6 @@
   "name": "Fanatic",
   "hp": 10000,
   "dps": 5,
-  "drops": "dark hole max ammo upgrade"
+  "drops": "dark hole max ammo upgrade",
+  "class": "Mystical"
 }

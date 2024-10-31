@@ -2,5 +2,6 @@
   "name": "Mercinary",
   "hp": 500000,
   "dps": 40,
-  "drops": "huge cannon ammo"
+  "drops": "huge cannon ammo",
+  "class": "Marine"
 }

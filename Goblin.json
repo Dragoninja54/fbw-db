@@ -2,5 +2,6 @@
   "name": "Goblin",
   "hp": 32,
   "dps": 1,
-  "drops": "none"
+  "drops": "none",
+  "class": "Money Creature"
 }

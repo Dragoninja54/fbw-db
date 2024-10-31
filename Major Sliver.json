@@ -2,5 +2,6 @@
   "name": "Major Sliver",
   "hp": 30000000,
   "dps": 10000,
-  "drops": "200 gold"
+  "drops": "200 gold",
+  "class": "Sliver"
 }

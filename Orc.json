@@ -2,5 +2,6 @@
   "name": "Orc",
   "hp": 5000,
   "dps": 20,
-  "drops": "5 gold"
+  "drops": "5 gold",
+  "class": "Money Creature"
 }

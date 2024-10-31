@@ -2,5 +2,6 @@
   "name": "Rebel",
   "hp": 500,
   "dps": 6,
-  "drops": "large cannon ammo"
+  "drops": "large cannon ammo",
+  "class": "Marine"
 }

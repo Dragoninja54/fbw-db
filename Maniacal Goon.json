@@ -2,5 +2,6 @@
   "name": "Maniacal Goon",
   "hp": 500000,
   "dps": 75,
-  "drops": "laser damage upgrade"
+  "drops": "laser damage upgrade",
+  "class": "Goon"
 }

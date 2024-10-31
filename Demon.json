@@ -2,5 +2,6 @@
   "name": "Demon",
   "hp": 1000,
   "dps": 10,
-  "drops": "3 gold"
+  "drops": "3 gold",
+  "class": "Money Creature"
 }

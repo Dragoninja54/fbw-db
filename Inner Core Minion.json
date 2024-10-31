@@ -2,5 +2,6 @@
   "name": "Inner Core Minion",
   "hp": 100000,
   "dps": 100,
-  "drops": "none"
+  "drops": "none",
+  "class": "Other"
 }

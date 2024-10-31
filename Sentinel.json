@@ -2,5 +2,6 @@
   "name": "Sentinel",
   "hp": 10000,
   "dps": 30,
-  "drops": "EMP freeze time upgrade"
+  "drops": "EMP freeze time upgrade",
+  "class": "Science"
 }

@@ -2,5 +2,6 @@
   "name": "Immoral Goon",
   "hp": 20000,
   "dps": 20,
-  "drops": "large laser ammo"
+  "drops": "large laser ammo",
+  "class": "Goon"
 }

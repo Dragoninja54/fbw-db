@@ -2,5 +2,6 @@
   "name": "Anti Blue Abomination",
   "hp": 2000000,
   "dps": 100,
-  "drops": "none"
+  "drops": "none",
+  "class": "Other"
 }

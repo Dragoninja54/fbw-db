@@ -2,5 +2,6 @@
   "name": "Arch Menace Female",
   "hp": 20000,
   "dps": 10,
-  "drops": "none"
+  "drops": "none",
+  "class": "Menace"
 }

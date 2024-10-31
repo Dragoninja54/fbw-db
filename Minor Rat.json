@@ -2,5 +2,6 @@
   "name": "Minor Rat",
   "hp": 10000,
   "dps": 100,
-  "drops": "none"
+  "drops": "none",
+  "class": "Rat"
 }

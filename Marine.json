@@ -2,5 +2,6 @@
   "name": "Marine",
   "hp": 64,
   "dps": 2,
-  "drops": "small minigun ammo"
+  "drops": "small minigun ammo",
+  "class": "Marine"
 }

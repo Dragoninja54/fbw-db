@@ -2,5 +2,6 @@
   "name": "Guerilla",
   "hp": 50000,
   "dps": 15,
-  "drops": "large minigun ammo"
+  "drops": "large minigun ammo",
+  "class": "Marine"
 }

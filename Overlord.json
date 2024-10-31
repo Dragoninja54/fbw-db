@@ -2,5 +2,6 @@
   "name": "Overlord",
   "hp": 1000,
   "dps": 50,
-  "drops": "none"
+  "drops": "none",
+  "class": "Other"
 }

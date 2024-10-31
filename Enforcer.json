@@ -2,5 +2,6 @@
   "name": "Enforcer",
   "hp": 1000000000,
   "dps": 10000,
-  "drops": "none"
+  "drops": "none",
+  "class": "Guardian"
 }
