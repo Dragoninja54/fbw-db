@@ -50,7 +50,7 @@ for num_name in monster_nums_names:
 
     db = monster_bio_db[name]
 
-    json_db = {'name': name, 'hp': 'Unknown', 'dps': 'Unknown', 'drops': 'none', 'class': class_names_from_num[int(math.floor(float(num) - 1))]}
+    class_value = class_names_from_num[int(math.floor(float(num) - 1))]
 
     i = 0
 
@@ -72,12 +72,26 @@ for num_name in monster_nums_names:
                 except:
                     assert 'Value Error'
 
-        json_db[key] = value
+        if key == 'dps': 
+            dps_value = value
+        elif key == 'hp':
+            hp_value = value
+        elif key == 'drops':
+            drops_value = value
+            
 
         i += 1
+
+    wiki_content = f"""{{{{Monster
+|Class = {class_value}
+|Region = 
+|DPS = {dps_value}
+|HP = {hp_value}
+|Drops = {drops_value}
+}}}}"""
  
     print(f'saving db for {name}')
-    with open(f'db/{name}.json', 'w', encoding='utf-8') as f:
-        json.dump(json_db, f, ensure_ascii = False, indent = 2)
+    with open(f'db/{name}.txt', 'w', encoding='utf-8') as f:
+        f.write(wiki_content)
         
 print('Done!')
