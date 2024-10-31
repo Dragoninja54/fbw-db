@@ -1,0 +1,22 @@
+class_names_from_num = {
+    1: 'Juggernaut',
+    2: 'Marine',
+    3: 'Goon',
+    4: 'Pirate',
+    5: 'Spider',
+    6: 'Science',
+    7: 'Nuclear',
+    8: 'Mystical',
+    9: 'Collapsed',
+    10: 'Money Creature',
+    11: 'Menace',
+    12: 'Fly-Like',
+    13: 'Bee-Like',
+    14: 'Guardian',
+    15: 'Lamprey',
+    16: 'Beholder',
+    17: 'Sliver',
+    18: 'Rat',
+    19: 'Pool Ball',
+    20: 'Other'
+}

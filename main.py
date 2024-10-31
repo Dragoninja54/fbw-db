@@ -1,5 +1,7 @@
 from funcs import is_monster_bio_start
-import json, os
+from class_names import class_names_from_num
+
+import json, os, math
 
 if not os.path.exists('db'):
     os.mkdir('db', 0o666)
@@ -48,7 +50,7 @@ for num_name in monster_nums_names:
 
     db = monster_bio_db[name]
 
-    json_db = {'name': name, 'hp': 'Unknown', 'dps': 'Unknown', 'drops': 'none'}
+    json_db = {'name': name, 'hp': 'Unknown', 'dps': 'Unknown', 'drops': 'none', 'class': class_names_from_num[int(math.floor(float(num) - 1))]}
 
     i = 0
 
